@@ -46,13 +46,12 @@ p {
 body > #container{
   margin: 0 auto;
   width: 700px;
-  padding: 0px 50px;
+  padding: 20px;
   background-color: #F2F2F2;
 }
 
 section > h1 {
   font-size: 1.2em;
-  border-bottom: 1px solid #CCC;
   margin-bottom: 0.2em;
   margin-top: 2em;
   padding-bottom: 0.2em;
@@ -65,4 +64,15 @@ section p {
 footer{
   text-align: center;
   padding-bottom: 1em;
+}
+
+textarea.big {
+  height: 100px;
+}
+
+input.big,
+textarea.big {
+  width: 600px;
+  padding: 5px;
+  font-size: 12px;
 }
